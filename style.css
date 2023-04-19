@@ -110,6 +110,47 @@ button {
     padding: 8px;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.info > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.info > div div {
+    width: 200px;
+    
+}
+
+.info  img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.info p {
+    color: gray;
+    text-align: center;
+    padding-top: 10px;
+}
+
 .footer {
     background-color: #171e29;
     display: flex;
