@@ -65,7 +65,8 @@ button {
     width: 400px;
     height: auto;
     margin-left: auto;
-    
+    border: 2px hidden;
+    border-radius: 10px;
 }
 
 .hero-contents > div {
