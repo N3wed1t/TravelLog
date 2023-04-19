@@ -3,6 +3,7 @@
 body {
     font-family: Roboto, sans-serif;
     margin: 0 auto;
+    
 }
 
 ul {
@@ -23,6 +24,7 @@ a {
 a, p {
     color: #E5E7EB;
     font-size: 20px;
+    margin: 0 auto;
 }
 
 li {
@@ -90,7 +92,8 @@ button {
     color: gray;
     text-align: end;
     resize: none;
-    padding: 0px;
+    padding: 0px;    padding: 20px;
+
     font-family: Roboto;
     font-size: 18px;
     padding: 10px 5px;
@@ -105,4 +108,13 @@ button {
     border-radius: 0;
     width: 60px;
     padding: 8px;
+}
+
+.footer {
+    background-color: #171e29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 1000px;
 }
