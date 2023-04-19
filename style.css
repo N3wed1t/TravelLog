@@ -116,6 +116,7 @@ button {
     justify-content: flex-start;
     align-items: center;
     padding: 50px 0;
+    padding-bottom: 142px;
 }
 
 .info > div {
@@ -149,6 +150,24 @@ button {
     color: gray;
     text-align: center;
     padding-top: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    padding: 142px 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote strong {
+    font-size: 24px;
+}
+
+.quote div {
+    align-self: flex-end;
 }
 
 .footer {
