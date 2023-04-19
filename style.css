@@ -170,11 +170,34 @@ button {
     align-self: flex-end;
 }
 
+.promote {
+    background-color: #3882F6;
+    padding: 60px 120px;
+    margin: 100px 15%;
+    border-radius: 10px;
+    display: flex;
+}
+
+.promote div {
+    color: #E5E7EB;
+}
+
+.promote .promote-title {
+    font-size: large;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.promote button {
+    border: 3px solid #F9FAF8;
+    margin-left: auto;
+}
+
 .footer {
     background-color: #171e29;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px;
-    margin-top: 1000px;
+    margin-top: auto;
 }
